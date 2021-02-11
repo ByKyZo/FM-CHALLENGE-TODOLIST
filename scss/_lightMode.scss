@@ -1,0 +1,48 @@
+// LIGHT THEME
+
+body.light .newTodo{
+    background-color: white; //$VeryLightGrayishBlue
+    border-color: $LightGrayishBlue;
+}
+body.light .newTodo span{
+    color: $VeryDarkGrayishBlue;
+}
+body.light .app__bottom{
+    background-color: white;
+}
+body.light .container{
+    background-color: $LightGrayishBlue;
+    background-image: url("../images/bg-desktop-light.jpg");
+}
+body.light #todoName{
+    background-color: white;
+    color: $VeryDarkGrayishBlue;
+}
+body.light .app__addTodo{
+    background-color: white;
+}
+body.light .app__bottom{
+    color: $DarkGrayishBlue;
+    &__sort__item{
+        &:hover{
+            color: $VeryDarkGrayishBlue1;
+        }
+        &.select{
+            color: $BrightBlue;
+        }
+    }
+    &__clear{
+        &:hover{
+            color: $VeryDarkGrayishBlue1;
+        }
+    }
+}
+
+body.light .customCheckbox:hover::after{
+    content: "";
+    background: white;
+}
+
+body.light .app__bottom__sort{
+    background: white;
+}
